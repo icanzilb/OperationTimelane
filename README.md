@@ -24,6 +24,10 @@
 
 # Usage
 
+## Install Timelane Instrument
+
+Download the latest release of the Timelane Instrument and install it on your computer: http://timelane.tools/#download.
+
 ## Debugging specific operation
 
 Import the OperationTimelane framework in your code:
