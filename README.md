@@ -1,6 +1,8 @@
-# OperationTimelane
+# OperationTimelane ß
 
 ![Timelane Icon](etc/Icon_128x128@2x.png)
+
+> Note: Pre 1.0 software.
 
 **OperationTimelane** provides an API allowing you to debug your `Operation` based asynchronous code visually in the Timelane Instrument.
 
@@ -8,7 +10,6 @@
 
 <p align="center">
     <img src="https://img.shields.io/badge/Swift-5.2-orange.svg" />
-    <img src="https://img.shields.io/cocoapods/v/RxTimelane.svg" />
     <img src="https://img.shields.io/cocoapods/l/RxTimelane.svg" />
     <img src="https://img.shields.io/cocoapods/p/RxTimelane.svg" />
 </p>
@@ -95,7 +96,7 @@ I . Automatically in Xcode:
 II . Manually in your **Package.swift** file add:
 
 ```swift
-.package(url: "https://github.com/icanzilb/OperationTimelane", .from("1.0.0"))
+.package(url: "https://github.com/icanzilb/OperationTimelane", from: "1.0.0")
 ```
 
 ## CocoaPods
@@ -106,17 +107,9 @@ II . Manually in your **Package.swift** file add:
 pod 'OperationTimelane', '~> 1.0'
 ```
 
-## Carthage
-
-[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks. To integrate **OperationTimelane** into your Xcode project using Carthage, add it in your `Cartfile`:
-
- ```ogdl
- github "icanzilb/OperationTimelane" "1.0"
- ```
-
 # Demo
 
-This repo contains a simple demo app. To give it a try open **OperationTimelane/OperationTimelane.xcodeproj** and run the "OperationTimelaneDemo" scheme.
+TODO: This repo contains a simple demo app. To give it a try open **OperationTimelaneExample/OperationTimelane.xcodeproj** and run the "OperationTimelaneDemo" scheme.
 
 ![Timelane demo app](etc/demo.png)
 

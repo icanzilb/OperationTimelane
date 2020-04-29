@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'OperationTimelane'
   s.version          = '0.9.0'
-  s.summary          = 'OperationTimelane provides operations bindings for profiling asynchronous code with the Timelane Instrument.'
+  s.summary          = 'OperationTimelane provides operations bindings for profiling asynchronous code with the Timelane Instrument. Consult the README for the specific APIs to use in order to make the most out of OperationTimelane.'
 
   s.description      = <<-DESC
 OperationTimelane provides operations bindings for profiling asynchronous code with the Timelane Instrument.
