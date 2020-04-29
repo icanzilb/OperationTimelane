@@ -24,9 +24,10 @@
 
 # Usage
 
-## Install Timelane Instrument
+## Before getting started
 
-Download the latest release of the Timelane Instrument and install it on your computer: http://timelane.tools/#download.
+1. Download the latest release of the Timelane Instrument and install it on your computer: http://timelane.tools/#download.
+2. Add the `OperationTimelane` package to your Xcode project like described in the [Installation](#installation) section.
 
 ## Debugging specific operation
 
